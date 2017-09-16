@@ -130,4 +130,12 @@
     <string name="toxyc_update_settings_title">Atualizações da ToxycOS</string>
     <string name="toxyc_update_settings_summary">Encontre novas atualizações</string>
 
+    <!-- Custom light color -->
+    <string name="light_customization">LED de notificações</string>
+    <string name="custom_light_title">Cor da luz</string>
+    <string name="custom_light_on_time_title">"Luz ON durante o pulso de LED (ms)"</string>
+    <string name="custom_light_off_time_title">"Luz OFF durante o pulso de LED (ms)"</string>
+    <string name="app_notifications_info_desc">Toque em um dos canais acima para configurar suas cores claras e outras opções</string>
+    <string name="value_equals_default">Automatico</string>
+
 </resources>
