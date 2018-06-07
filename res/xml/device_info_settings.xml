@@ -40,7 +40,7 @@
              android:summary="@string/toxyc_update_settings_summary">
              <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="com.toxyc.ota"
-                 android:targetClass="com.toxyc.ota.activities.MainActivity" />
+                 android:targetClass="com.toxyc.ota.MainActivity" />
          </Preference>
 
         <!-- Device status - launches activity -->
