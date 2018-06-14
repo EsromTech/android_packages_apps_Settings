@@ -1,0 +1,3 @@
+<WakefulIntentService
+    listener="com.toxyc.settings.fragments.about.update.scheduler.OTAListener"
+    />

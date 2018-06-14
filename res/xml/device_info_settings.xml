@@ -34,14 +34,12 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
-         <!-- OTA -->
-         <Preference android:key="toxyc_updates"
+         <!-- ToxycOTA -->
+         <PreferenceScreen
+             android:key="toxyc_update"
              android:title="@string/toxyc_update_settings_title"
-             android:summary="@string/toxyc_update_settings_summary">
-             <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="com.toxyc.ota"
-                 android:targetClass="com.toxyc.ota.MainActivity" />
-         </Preference>
+             android:summary="@string/toxyc_update_settings_summary"
+             android:fragment="com.toxyc.settings.fragments.about.Update" />
 
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"

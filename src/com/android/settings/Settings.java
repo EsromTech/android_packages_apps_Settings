@@ -193,5 +193,6 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class HazardActivity extends SettingsActivity {}
     public static class ButtonSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class ToxycOTASettingsActivity extends SettingsActivity { /* empty */ }
 
 }

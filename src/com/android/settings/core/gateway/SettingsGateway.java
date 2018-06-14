@@ -135,6 +135,7 @@ import com.android.settings.aoscp.colormanager.ThemesFragment;
 
 import com.toxyc.hazard.HazardSettings;
 import com.toxyc.hazard.fragments.ButtonSettings;
+import com.toxyc.settings.fragments.about.Update;
 
 public class SettingsGateway {
 
@@ -260,6 +261,7 @@ public class SettingsGateway {
             HazardSettings.class.getName(),
             ThemesFragment.class.getName(),
             ButtonSettings.class.getName(),
+            Update.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
